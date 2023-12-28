@@ -285,6 +285,7 @@ LittlerootTown_EventScript_FatMan::
 	giveitem ITEM_HM06
 	giveitem ITEM_HM07
 	giveitem ITEM_HM08
+	givecustommon SPECIES_ENTEI, 75, ITEM_CHOICE_BAND, ITEM_POKE_BALL, NATURE_TIMID, 1, 252, 0, 0, 0, 0, 252, 31, 31, 31, 31, 31, 0, MOVE_EARTHQUAKE, MOVE_CUT, MOVE_SURF, MOVE_AGILITY
 	waitfanfare
 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
 	release
